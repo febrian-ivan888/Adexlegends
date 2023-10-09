@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+button {
+    cursor: pointer;
+}
+
+body {
+    margin: 0px;
+    background-image: url(legend.jpg);
+    background-color: #E6E1DB;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 5vw;
+    height: 600px;
+    box-sizing: border-box;
+}
+
+br {
+    height: 1vw;
+}
+
+.red {
+    color: #FF0000;
+}
+
+.regist {
+    width: 50%;
+    float: right;
+    text-align: center;
+    font-family: 'Aldrich', sans-serif;
+    padding: 0 2% 3% 2%;
+}
+
+.regist>h1 {
+    font-size: 3vw;
+    margin: 0;
+}
+
+.regist>h2 {
+    font-size: 1.8vw;
+}
+
+.regist>img {
+    width: 5vw;
+
+}
+
+input {
+    width: 100%;
+    border-radius: 1vw;
+    height: 3vw;
+    font-size: 1.75vw;
+}
+
+label {
+    font-size: 1.5vw;
+}
+
+.errors {
+    font-size: 1.1vw;
+    color: #FF0000;
+}
+
+.split {
+    width: 47%;
+    float: left;
+
+}
+
+#split2 {
+    float: right;
+}
+
+form>div {
+    margin-bottom: 2%;
+    text-align: left;
+}
+
+.check>input {
+    width: 5%;
+    margin: 0;
+}
+
+#req {
+    font-size: 1vw;
+}
+
+form>button {
+    background-color: aqua;
+    font-family: 'Aldrich', sans-serif;
+    font-size: 1.25vw;
+    border-radius: 1vw;
+    color: #FF0000;
+    width: 40%;
+    height: 3.5vw;
+}
+
+form>button:hover {
+    background-color: rgb(6, 167, 167);
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        background-image: none;
+        margin: auto;
+    }
+
+    .regist {
+        float: none;
+        margin: auto;
+        width: 80%;
+    }
+}

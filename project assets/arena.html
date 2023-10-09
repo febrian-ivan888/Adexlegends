@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arena Maps</title>
+    <link rel="stylesheet" href="maps_arena/arena.css">
+    <script src="maps_arena/arena.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="HomePage/adex logo.png"></a>
+        <div class="btn">
+            <div class="split-btn"><a href="legends.html">Legends</a></div>
+            <div class="split-btn"><a href="abous.html">About</a></div>
+            <div class="split-btn">
+                <div class="dropdown">
+                    <a>Maps &#9660;</a>
+                    <div class="dropdown-content">
+                        <a href="arena.html">Arena</a>
+                        <a href="br.html">Battle Royale</a>
+                    </div>
+                </div>
+            </div>
+            <div class="reg-btn"><a href="regis.html">Register</a></div>
+        </div>
+
+        <div class="hamburger_menu">
+            <a id="hamburger_icon" onclick="drop()">&#9776;</a>
+            <div id="hamburger_dropdown">
+                <p class="ham_btn"><a href="legends.html">Legends</a></p>
+                <p class="ham_btn"><a href="abous.html">About</a></p>
+                <p class="ham_btn"><a onclick="drop_sub()">Maps<span id="down_icon"> &#9660;</span></a></p>
+                <div id="sub_hamburger">
+                    <p class="ham_btn"><a href="arena.html">Arena</a></p>
+                    <p class="ham_btn"><a href="br.html">Battle Royale</a></p>
+                </div>
+                <p class="ham_btn"><a href="regis.html">Register</a></p>
+            </div>
+        </div>
+    </header>
+
+    <div class="infoSection">
+        <h1>ARENA</h1>
+        <h2>Be the better team in this 3v3 deathmatch</h2>
+        <div class="subInfoSection">
+            <img src="maps_arena/apex-legends-arena-mode-release-date-header.jpg">
+            <div>
+                <h2>Show them what you can do with those weapons in this 3v3 team deathmatch mode. Each team will have
+                    unlimited loadout supply in order to achieve the first to 40 kills. </h2>
+            </div>
+        </div>
+    </div>
+    <div id="mapTitle">
+        ARENA MAPS
+    </div>
+    <div id="mapsSection">
+        <div class="slideshow">
+            <a id="prev" onclick="prevSlide()"><img src="maps_br/prev.png"></a>
+            <a id="next" onclick="nextSlide()"><img src="maps_br/next.png"></a>
+            <div class="slide fade">
+                <img src="maps_arena/barren.jpg">
+                <div class="slidesText">
+                    <h1>BARREN</h1>
+                    <h2>Situated in the middle of a desert, Barren is the top choice to show of your shooting skills.
+                        With little to no obstacle between the two teams, Barren highly reward players who just don’t
+                        miss their shot. The city center in the middle of the map also rewards brave legends who dare
+                        contest the loot and their inhabitants.</h2>
+
+                </div>
+                <div class="extraImage">
+                    <div class="extra">
+                        <img src="maps_arena/map1.jpg">
+                    </div>
+                    <div class="mini">
+                        <img src="maps_arena/minimap1.jpg">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="slide fade">
+                <img src="maps_arena/okyota.jpg">
+                <div class="slidesText">
+                    <h1>OKYOTA</h1>
+                    <h2>The futuristic city of Okyota, home to Ace and all that came before her. The downtown offers
+                        multiple buildings with various terrains and veticality enabling even the weakest of legends to
+                        gain an upperhand as long as they are familiar with this city’s layout. Being a modern city,
+                        Okyota also provides rotating buffs every round to both teams.</h2>
+                </div>
+                <div class="extraImage">
+                    <div class="extra">
+                        <img src="maps_arena/map2.jpg">
+                    </div>
+                    <div class="mini">
+                        <img src="maps_arena/minimap2.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <div class="slide fade">
+                <img src="maps_arena/inertia.jpg">
+                <div class="slidesText">
+                    <h1>INERTIA</h1>
+                    <h2>What was once a testing site for the Phase Runner Technology has now turned into an arena where
+                        teams can test out their speed and flanking coordination. Equipped with a Phase Runner on each
+                        side of the map, teams can immediately go through it and throw immediate chaos to the arena.
+                        Phase runners also provide more attacking variety in each game.</h2>
+                </div>
+                <div class="extraImage">
+                    <div class="extra">
+                        <img src="maps_arena/map3.jpg">
+                    </div>
+                    <div class="mini">
+                        <img src="maps_arena/minimap3.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="selectSlide">
+            <span class="dot" onclick="goToSlide(1)"></span>
+            <span class="dot" onclick="goToSlide(2)"></span>
+            <span class="dot" onclick="goToSlide(3)"></span>
+        </div>
+        <a href="br.html">
+            <div class="toOtherPage">
+                CHECK OUT BATTLE ROYALE MODE
+            </div>
+        </a>
+    </div>
+
+    <footer>
+        <div>AVAILABLE ON</div>
+        <img src="HomePage/adex-platform-logos-dark.png">
+        <div class="footerText">For PlayStation® 4, PlayStation® 5, Xbox One, Xbox Series X|S and PC via Steam.</div>
+        <a href="LinkPFF.html">
+            <div class="playButton">PLAY FOR FREE</div>
+        </a>
+
+    </footer>
+
+
+</body>
+
+</html>

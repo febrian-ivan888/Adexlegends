@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Adex Account</title>
+    <link rel="stylesheet" href="regis/regis.css">
+    <script src="regis/regis.js"></script>
+</head>
+
+<body>
+    <div class="regist">
+        <img src="HomePage/adex logo.png">
+        <h1>WELCOME LEGEND!</h1>
+        <h2>Create an ADEX account to continue your journey in a few quick steps</h2>
+
+        <form method="post" id="registrationForm">
+            <div>
+                <label>USERNAME<span class="red">*</span></label>
+                <input type="text" id="username">
+            </div>
+            <div class="split">
+                <label>FIRST NAME<span class="red">*</span></label>
+                <input type="text" id="firstName">
+            </div>
+            <div class="split" id="split2">
+                <label>LAST NAME<span class="red">*</span></label>
+                <input type="text" id="lastName">
+            </div>
+            <div>
+                <label>EMAIL ADDRESS<span class="red">*</span></label>
+                <input type="text" id="email">
+                <label class="errors" id="emailError"></label>
+            </div>
+            <div>
+                <label>PASSWORD<span class="red">*</span></label>
+                <input type="password" id="password">
+                <label class="errors" id="passwordError"></label>
+
+            </div>
+            <div>
+                <label>CONFIRM PASSWORD<span class="red">*</span></label>
+                <input type="password" id="passwordC">
+                <label class="errors" id="passwordErrorC"></label>
+
+            </div>
+            <div>
+                <label>DATE OF BIRTH<span class="red">*</span></label>
+                <input type="date" id="DOB">
+                <label class="errors" id="DOBError"></label>
+            </div>
+            <div class="check">
+                <input type="checkbox" id="agre">
+                <label>I agree to the terms and conditions<span class="red">*</span></label>
+                <label class="errors" id="agreError"></label>
+            </div>
+            <div class="red" id="req">*required</div>
+            <div class="errors" id="reqError"></div>
+            <button type="submit">CONTINUE</button>
+
+        </form>
+    </div>
+
+
+</body>
+
+</html>

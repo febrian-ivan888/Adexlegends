@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda&family=Sarpanch&family=Philosopher&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.judul1 {
+
+
+    margin-top: 6vw;
+    text-align: center;
+
+    font-family: 'Sarpanch';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 90px;
+
+    color: #FFFFFF;
+}
+
+.tombol {
+    text-align: center;
+}
+
+.tombol input {
+    width: 50vw;
+}
+
+body {
+    background: url("output-onlinegiftools.gif");
+    margin: 0px;
+    background-size: 100% 100%;
+}
+
+.bud2 {
+    margin-top: 20px;
+}
+
+.bud3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

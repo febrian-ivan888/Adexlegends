@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle Royale Maps</title>
+    <link rel="stylesheet" href="maps_br/br.css">
+    <script src="maps_br/br.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="HomePage/adex logo.png"></a>
+        <div class="btn">
+            <div class="split-btn"><a href="legends.html">Legends</a></div>
+            <div class="split-btn"><a href="abous.html">About</a></div>
+            <div class="split-btn">
+                <div class="dropdown">
+                    <a>Maps &#9660;</a>
+                    <div class="dropdown-content">
+                        <a href="arena.html">Arena</a>
+                        <a href="br.html">Battle Royale</a>
+                    </div>
+                </div>
+            </div>
+            <div class="reg-btn"><a href="regis.html">Register</a></div>
+        </div>
+
+        <div class="hamburger_menu">
+            <a id="hamburger_icon" onclick="drop()">&#9776;</a>
+            <div id="hamburger_dropdown">
+                <p class="ham_btn"><a href="legends.html">Legends</a></p>
+                <p class="ham_btn"><a href="abous.html">About</a></p>
+                <p class="ham_btn"><a onclick="drop_sub()">Maps<span id="down_icon"> &#9660;</span></a></p>
+                <div id="sub_hamburger">
+                    <p class="ham_btn"><a href="arena.html">Arena</a></p>
+                    <p class="ham_btn"><a href="br.html">Battle Royale</a></p>
+                </div>
+                <p class="ham_btn"><a href="regis.html">Register</a></p>
+            </div>
+        </div>
+    </header>
+
+    <div class="infoSection">
+        <h1>BATTLE ROYALE</h1>
+        <h2>Be the last squad standing on the battlefield</h2>
+        <div class="subInfoSection">
+            <img src="maps_br/high risk.jpg">
+            <div>
+                <h1>HIGH RISK HIGH GAIN</h1>
+                <h2>Plan out your landing to balance out your risk and rewards. High tier loot will be beneficial, but
+                    you’re not the only one there</h2>
+            </div>
+        </div>
+
+        <div class="subInfoSection">
+            <div id="subInfoSection2">
+                <h1>ALWAYS STAY SAFE</h1>
+                <h2>Watch out for the red zone times, make sure to get to the safe zone before the time runs out. The
+                    red zone can be deadly!</h2>
+            </div>
+            <img src="maps_br/zone.jpg">
+        </div>
+
+        <div class="subInfoSection">
+            <img src="maps_br/champ.jpg">
+            <div>
+                <h1>BE THE BEST</h1>
+                <h2>Dominate other legends and be the last man standing, it’s that easy. Hunt or be hunted, the choice
+                    is yours, see you in the battlefield!</h2>
+            </div>
+        </div>
+    </div>
+
+    <div id="mapsSection">
+        <h1>BATTLE ROYALE MAPS</h1>
+
+        <div class="slideshow">
+            <a id="prev" onclick="goToSlide(1)"><img src="maps_br/prev.png"></a>
+            <a id="next" onclick="goToSlide(2)"><img src="maps_br/next.png"></a>
+            <div class="slide fade">
+                <img src="maps_br/map1.jpg">
+                <div class="slidesText">
+                    <h1>PHONY PARADISE</h1>
+                    <h2>This place wasn’t as big as it used to be, nor is it as beautiful. It came with the arrival of
+                        the legends initiative bringing entertainment and battles towards this land. With a size of 7x7
+                        km, there is surely not enough room for all legends here, thus the need to adapt and survive.
+                        This paradise is surely not for everyone, but only for the best of legends.</h2>
+
+                </div>
+
+            </div>
+
+            <div class="slide fade">
+                <img src="maps_br/map2.jpg">
+                <div class="slidesText">
+                    <h1>CLIFFSIDE CHAOS</h1>
+                    <h2>Highly unstable both geographically and situationally, Cliffside is the literal embodiment of
+                        chaos itself. Boasting a size of 10x10 km, there is plenty of loot for everyone, if you are
+                        willing to search deeper. Find secret hideouts within the outskirts of the map in search for
+                        higher tier loots, but remember, the red zone is always ready to take you out.</h2>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="selectSlide">
+            <span class="dot" onclick="goToSlide(1)"></span>
+            <span class="dot" onclick="goToSlide(2)"></span>
+        </div>
+        <a href="arena.html">
+            <div class="toOtherPage">
+                CHECK OUT ARENA MODE
+            </div>
+        </a>
+    </div>
+
+    <footer>
+        <div>AVAILABLE ON</div>
+        <img src="HomePage/adex-platform-logos-dark.png">
+        <div class="footerText">For PlayStation® 4, PlayStation® 5, Xbox One, Xbox Series X|S and PC via Steam.</div>
+        <a href="LinkPFF.html">
+            <div class="playButton">PLAY FOR FREE</div>
+        </a>
+
+    </footer>
+
+
+</body>
+
+</html>

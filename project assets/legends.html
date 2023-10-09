@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legends</title>
+    <link rel="stylesheet" href="legends/legends.css">
+    <script src="legends/legends.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="HomePage/adex logo.png"></a>
+        <div class="btn">
+            <div class="split-btn"><a href="legends.html">Legends</a></div>
+            <div class="split-btn"><a href="abous.html">About</a></div>
+            <div class="split-btn">
+                <div class="dropdown">
+                    <a>Maps &#9660;</a>
+                    <div class="dropdown-content">
+                        <a href="arena.html">Arena</a>
+                        <a href="br.html">Battle Royale</a>
+                    </div>
+                </div>
+            </div>
+            <div class="reg-btn"><a href="regis.html">Register</a></div>
+        </div>
+
+        <div class="hamburger_menu">
+            <a id="hamburger_icon" onclick="drop()">&#9776;</a>
+            <div id="hamburger_dropdown">
+                <p class="ham_btn"><a href="legends.html">Legends</a></p>
+                <p class="ham_btn"><a href="abous.html">About</a></p>
+                <p class="ham_btn"><a onclick="drop_sub()">Maps<span id="down_icon"> &#9660;</span></a></p>
+                <div id="sub_hamburger">
+                    <p class="ham_btn"><a href="arena.html">Arena</a></p>
+                    <p class="ham_btn"><a href="br.html">Battle Royale</a></p>
+                </div>
+                <p class="ham_btn"><a href="regis.html">Register</a></p>
+            </div>
+        </div>
+    </header>
+
+    <div class="title">
+        <p class="titleText">THESE ARE YOUR LEGENDS</p>
+        <img class="titleLogo" src="legends/adex logo.png">
+    </div>
+
+    <div id="legendSection">
+        <div class="legendBox">
+            <p>Ace</p>
+            <img class="legendPic" src="legends/ace.png">
+            <div onpointerover="on(0)" onpointerleave="off(0)">
+                <input type="image" class="detail" src="legends/detail.png">
+                <div class="overlay">
+                    <h1>Ace</h1>
+                    <h2>
+                        Real Name: ???
+                        <br>
+
+                        Brief Description: A creation of the ancient, ace would follow any orders bestowed upon it. With
+                        its
+                        dual-bladed katana, it will surely rip anyone apart in the battlefield.
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="legendBox" id="box1">
+            <p>Acrid</p>
+            <img class="legendPic" src="legends/acrid.png">
+            <div onpointerover="on(1)" onpointerleave="off(1)">
+                <input type="image" class="detail" src="legends/detail.png">
+                <div class="overlay">
+                    <h1>Acrid</h1>
+                    <h2>
+                        Real Name: Owen Rustic
+                        <br>
+                        Brief Description: A brilliant chemist in his home country of Canada, he is forced to join the
+                        battle after a mysterious force destroyed all he worked for. He now vows to poison every one of
+                        them
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="legendBox" id="box2">
+            <p>Dominar</p>
+            <img class="legendPic" src="legends/dominar.png">
+            <div onpointerover="on(2)" onpointerleave="off(2)">
+                <input type="image" class="detail" src="legends/detail.png">
+                <div class="overlay">
+                    <h1>Dominar</h1>
+                    <h2>
+                        Real Name: Emilia Mancebo
+                        <br>
+                        Brief Description: Dancing her way to the battlefield all the way from Colombia. Dominar has
+                        always been a dominator with her moves both on stage and in the battlefield. Her speed is one to
+                        watch out, if you can catch her.
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="legendBox" id="box3">
+            <p>Hope</p>
+            <img class="legendPic" src="legends/hope.png">
+            <div onpointerover="on(3)" onpointerleave="off(3)">
+                <input type="image" class="detail" src="legends/detail.png">
+                <div class="overlay">
+                    <h1>Hope</h1>
+                    <h2>
+                        Real Name: Josefine Franck
+                        <br>
+                        Brief Description: The prodigy from Germany, her engineering degrees did not go to waste with
+                        her utility inventions to aid the battles. She may not have much in her, but with her tech, the
+                        battle will surely get interesting.
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="legendBox" id="box4">
+            <p>Jade</p>
+            <img class="legendPic" src="legends/jade.png">
+            <div onpointerover="on(4)" onpointerleave="off(4)">
+                <input type="image" class="detail" src="legends/detail.png">
+                <div class="overlay">
+                    <h1>Jade</h1>
+                    <h2>
+                        Real Name: Shamone Lawson
+                        <br>
+                        Brief Description: A brilliant nurse and an experienced medic, Jade will help keep all her
+                        allies in good shape whilst fighting alongside them. Her abilities will provide all the team’s
+                        needs.
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="legendBox" id="box5">
+            <p>Marko</p>
+            <img class="legendPic" src="legends/marko.png">
+            <div onpointerover="on(5)" onpointerleave="off(5)">
+                <input type="image" class="detail" src="legends/detail.png">
+                <div class="overlay">
+                    <h1>Marko</h1>
+                    <h2>
+                        Real Name: Pyotr Makarovich
+                        <br>
+                        Brief Description: This ex-intelligence agent will always have information about the enemy. With
+                        the secret tech from the Soviet’s inventions in his possession, no one could hide from him and
+                        his allies.
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="legendBox" id="box6">
+            <p>Omega</p>
+            <img class="legendPic" src="legends/omega.png">
+            <div onpointerover="on(6)" onpointerleave="off(6)">
+                <input type="image" class="detail" src="legends/detail.png">
+                <div class="overlay">
+                    <h1>Omega</h1>
+                    <h2>
+                        Real Name: Rahul Pandey
+                        <br>
+                        Brief Description: Being the head engineer of the ISRO, Omega got the latest and greatest
+                        defence available among other legends. His modified space suit ensures no bullets could ever get
+                        through him.
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="legendBox" id="box7">
+            <p>Private</p>
+            <img class="legendPic" src="legends/private.png">
+            <div onpointerover="on(7)" onpointerleave="off(7)">
+                <input type="image" class="detail" src="legends/detail.png">
+                <div class="overlay">
+                    <h1>Private</h1>
+                    <h2>
+                        Real Name: Saaedah Hashani
+                        <br>
+                        Brief Description: Being an orphan since a civil war broke out in her home country of Syria,
+                        Private have taught herself to thrive in harsh conditions. She needs no one else in order to
+                        survive these battles
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="legendBox" id="box8">
+            <p>Rick</p>
+            <img class="legendPic" src="legends/rick.png">
+            <div onpointerover="on(8)" onpointerleave="off(8)">
+                <input type="image" class="detail" src="legends/detail.png">
+                <div class="overlay">
+                    <h1>Rick</h1>
+                    <h2>
+                        Real Name: Rico Ganendra
+                        <br>
+                        Brief Description: Diving his way from the seas of Indonesia, Rick boasts immense stamina due to
+                        his marine background. His positive energy will help inspire his allies in their battles
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="legendBox" id="box9">
+            <p>Spectre</p>
+            <img class="legendPic" src="legends/spectre.png">
+            <div onpointerover="on(9)" onpointerleave="off(9)">
+                <input type="image" class="detail" src="legends/detail.png">
+                <div class="overlay">
+                    <h1>Spectre</h1>
+                    <h2>
+                        Real Name: ???
+                        <br>
+                        Brief Description: Greetings fighter, you need not know what I can do for I have the ability to
+                        disable everyone’s weapons. Most importantly, I WILL 01010111 01001001 01001110
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="legendBox" id="box10">
+            <p>Umbra</p>
+            <img class="legendPic" src="legends/umbra.png">
+            <div onpointerover="on(10)" onpointerleave="off(10)">
+                <input type="image" class="detail" src="legends/detail.png">
+                <div class="overlay">
+                    <h1>Umbra</h1>
+                    <h2>
+                        Real Name: Zheng Yue
+                        <br>
+                        Brief Description: The daughter of the moon, or so they said. Umbra possesses the dark of the
+                        night and the light of the moon to both scare and blind the enemies. Her presence in the
+                        battlefield will make the fight unfair
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="legendBox" id="box11">
+            <p>Volta</p>
+            <img class="legendPic" src="legends/volta.png">
+            <div onpointerover="on(11)" onpointerleave="off(11)">
+                <input type="image" class="detail" src="legends/detail.png">
+                <div class="overlay">
+                    <h1>Volta</h1>
+                    <h2>
+                        Real Name: ???
+                        <br>
+                        Brief Description: Not many is known about this legend. He is both primitive and advanced at the
+                        same time. With his crow providing info and his cloak hiding him, Volta could be very dangerous
+                        to play around with
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <div>AVAILABLE ON</div>
+        <img src="HomePage/adex-platform-logos-dark.png">
+        <div class="footerText">For PlayStation® 4, PlayStation® 5, Xbox One, Xbox Series X|S and PC via Steam.</div>
+        <a href="LinkPFF.html">
+            <div class="playButton">PLAY FOR FREE</div>
+        </a>
+
+    </footer>
+
+</body>
+
+</html>
